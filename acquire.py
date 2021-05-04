@@ -75,7 +75,7 @@ def get_codeup_blog(url):
 
                                     ######################################
     
-    def get_blog_articles(urls):
+def get_blog_articles(urls):
     # List of dictionaries
     posts = [get_codeup_blog(url) for url in urls]
     
